@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+.left_lnb_wrap{
+    float: left;
+}
+
+.menu_content{
+    display: block;
+    float: right;
+    width: 700px;
+}
+.menu_content>h4{
+    margin: 20px 0 34px 0;
+}
+
+.menuslide_wrap{
+    position: relative;
+    display: block;
+}
+
+.menuslide_inner{
+    display: block;
+    position: relative;
+    height: 340px;
+    margin-bottom: 40px;
+}
+.menuslide_inner>img{
+    float: left;
+    width: 400px;
+}
+
+
+.menutext{
+    display: block;
+    float: left;
+    width: 280px;
+    padding: 0 0 0 20px;
+}
+
+.menu_sns{
+    margin-bottom: 20px;
+}
+
+.menutext>div+p+p{
+    margin-top: 20px;
+}
+
+.menu_name{
+    font-size: 27px;
+    font-weight: bold;
+    color: #303030;
+    display: block;
+    
+    line-height: 32px;
+}
+
+
+.menu_info{
+    position: relative;
+    display: inline-block;
+    width: 700px;
+    margin-bottom: 40px;
+}
+.menu_info p{
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.table_line{
+    border-top: 1px solid #303030;
+    border-bottom: 1px solid #303030;
+}
+.table_line table{
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+    border-collapse: collapse;
+
+}
+table th{
+    text-align: center;
+    border-bottom: 1px solid #d9d9d9;
+    border-left: 1px solid #d9d9d9;
+    padding: 10px 20px 12px 30px;
+}
+
+table td{
+    text-align: center;
+    padding: 10px 20px 10px;
+    border-left: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    line-height: 16px;
+}
+
+.noline{
+    border-left: none;
+}
+
+
+#row{
+    height: 150px;
+    overflow: hidden;
+}
+
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 94px;
+  height: 145px;
+  margin-bottom: 40px;
+
+}
+
+.column>p{
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  /*opacity: 0.6;*/
+  width: 94px;
+}
+
+.active,
+.demo:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.more_bnt{
+    cursor: pointer;
+}
