@@ -16,6 +16,7 @@
 .menuslide_wrap{
     position: relative;
     display: block;
+    margin: 0 0 40px 0;
 }
 
 .menuslide_inner{

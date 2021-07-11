@@ -24,9 +24,9 @@ a{text-decoration: none; color: #6f6f6f;}
   .clearfix:after {
     clear: both;
   }
-  /*[출처] [CSS] clearfix|작성자 훙성*/
+ 
 
-header{background: url(bg_bar.gif)left bottom repeat-x; width: 100%; height: 163px; }
+header{width: 100%; height: 163px; }
 .header_inner{position: relative; margin: 0 auto; }
 
 .logo{position: relative; width: 66px; margin: 0 auto; padding: 17px 0 0;}
@@ -39,10 +39,10 @@ header{background: url(bg_bar.gif)left bottom repeat-x; width: 100%; height: 163
 .quickbanner li+li{margin: 17px 12px 0 0;}
 
 
-#lnb_wrap{position: absolute; height: 40px; width: 100%; top: 100px; }
+#lnb_wrap{position: absolute; height: 63px; width: 100%; top: 100px; background: url(bg_bar.gif)left bottom repeat-x;}
 .header_inner{position: relative; width: 940px; margin: 0 auto;}
-.lnb{position: relative; width: 940px; height: 100%; margin: 0 auto;}
-.lnb>li{float: left; width: 156px; height: 100%; margin-bottom: 6px;}
+.lnb{position: relative; width: 940px; height: 100%; margin: 0 auto;  }
+.lnb>li{float: left; width: 156px; margin-bottom: 6px;}
 .lnb>li>a{
   display: block;
   width: 100%;
@@ -87,12 +87,12 @@ header{background: url(bg_bar.gif)left bottom repeat-x; width: 100%; height: 163
 }
 
 
-#container{ position: relative; display: block; margin: 0 auto; overflow: hidden; padding-bottom: 80px;}
+#container{ position: relative; margin: 0 auto;  padding-bottom: 80px;}
 .maincontent_wrap{position: relative; width: 940px; margin: 0 auto; padding: 50px 0 0;}
 
 
-footer{display: block; width: 100%; background-color: #ba000c; color: #de898e; clear: both;}
-.footer_inner{width: 970px; margin: 0 auto; padding: 30px 0;}
+footer{display: block; width: 100%; min-width: 940px; background-color: #ba000c; color: #de898e; clear: both; margin: 0auto;}
+.footer_inner{width: 940px; margin: 0 auto; padding: 30px 0;}
 .footer_inner >ul{display: block; clear: both;}
 .footer_inner >ul>li{float: left;}
 .footer_inner >ul>li>a{padding: 0 8px 0 8px; color: #faeff0; background: url(bg_footer_bar01.gif)right 2px no-repeat;}
