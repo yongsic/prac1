@@ -13,3 +13,7 @@
     width: 700px;
     padding: 10px 20px;
 }
+.map_wrap p span{
+    font-weight: bold;
+    line-height: 30px;
+}
