@@ -11,11 +11,14 @@
 }
 .map_wrap{
     width: 700px;
-    padding: 10px 20px 20px 10px;
+    padding: 10px 20px 20px 20px;
     border-bottom: 2px solid #000;
     margin-bottom: 100px;
 }
 .map_wrap p span{
     font-weight: bold;
     line-height: 30px;
+}
+.map{
+    margin: 0 auto;
 }
