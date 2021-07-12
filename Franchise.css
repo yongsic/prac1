@@ -1,4 +1,15 @@
 @charset "utf-8";
 
-.fr_info{ font-size: 12px;}
-.map{ width: 640px; height: 280px;}
+.fr_info{
+     font-size: 12px;
+    }
+
+.fr_info_tit{
+    background: #f1f1f1;
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+.map_wrap{
+    width: 700px;
+    padding: 10px 20px;
+}
