@@ -129,6 +129,7 @@ header{
   position: absolute;
   height: 0px;
   width: 100%;
+  min-width: 940px;
   overflow: hidden;
   top:63px;
   transition: height 0.4s;
